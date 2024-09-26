@@ -9,5 +9,5 @@ Hello, I'm Ricky Hui, currently completing my Master of Data Science. I have han
 ### Data Projects 
 
 #### IMDB Data Analysis
-<a href="IMDB_Project.html">View Project Details</a>
+<a href="IMDB_Project.pdf">View Project Details</a>
 
