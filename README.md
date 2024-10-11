@@ -1,5 +1,4 @@
 # Ricky Hui | Data Science Graduate
-  <img src="https://rickyhui28.github.io/Portfolio/portfolio-pic.jpg" alt="Profile Picture" style="width:150px; height:150px; border-radius:50%;">
 
 
 This portfolio showcases a compilation of projects from my master’s program, as well as personal data analysis projects.
