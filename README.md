@@ -4,15 +4,15 @@ This portfolio showcases a compilation of projects from my master’s program, a
 
 ## Experience
 
-### PHP & Laravel 
+#### PHP & Laravel 
 Developed dynamic web applications using PHP and the Laravel framework, leveraging XAMPP for local development and Amazon EC2 for hosting and deploying production environments.
 
-### Data Management 
+#### Data Management 
 Received, cleaned, and prepped client data using SQL and Excel for real-time performance monitoring and system optimization, ensuring data accuracy and application efficiency.
 
 ### Education
-#### Data Science and Applied Statistics (MSC) - University of Exeter
-#### Civil and Structural Engineering (BSC) - Newcastle University 
+Data Science and Applied Statistics (MSC) - University of Exeter
+Civil and Structural Engineering (BSC) - Newcastle University 
 
 ### Projects
 #### Reddit sentiment and Tesla’s stock price Correlation Analysis
