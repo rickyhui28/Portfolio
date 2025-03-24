@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ricky Hui | Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      color: #222;
+      margin: 0;
+      padding: 40px 20px;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    h2 {
+      color: #007acc;
+      margin-top: 40px;
+    }
+
+    ul {
+      margin: 10px 0 20px 20px;
+    }
+
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .project {
+      margin-bottom: 50px;
+    }
+
+    .key-section {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    .section-content {
+      margin-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Ricky Hui | Data Science Graduate | Programmer</h1>
+
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>1. Reddit Sentiment and Tesla’s Stock Price Correlation Analysis</h3>
+      <p>A data science research project exploring the relationship between public sentiment on Reddit and Tesla’s stock price movement, leveraging NLP and machine learning techniques.</p>
+
+      <p class="key-section">Key Components:</p>
+      <div class="section-content">
+        <p><strong>Data Collection:</strong> Scraped thousands of Reddit posts from finance-related subreddits using the Pushshift API, focusing on discussions about Tesla.</p>
+        <p><strong>Data Cleaning & Preprocessing:</strong> Performed NLP preprocessing including tokenization, lemmatization, stopword removal, and sentiment scoring using VADER and TextBlob.</p>
+        <p><strong>Feature Engineering:</strong> Aggregated daily sentiment scores, user engagement metrics, and post frequency; aligned these with daily Tesla stock data from yFinance.</p>
+        <p><strong>Modeling:</strong><br />
+          Built time-series models (ARIMA, LSTM) to forecast stock price trends using sentiment-based features.<br />
+          Evaluated models using RMSE and MAE; compared predictive accuracy of statistical vs. deep learning models.
+        </p>
+        <p><strong>Analysis:</strong> Performed Granger Causality Tests to investigate directional influence between sentiment and price changes.</p>
+        <p><strong>Tools Used:</strong> Python, Pandas, scikit-learn, Keras, TensorFlow, yFinance, Pushshift API, Matplotlib, Seaborn</p>
+        <p><strong>Outcome:</strong><br />
+          Found moderate short-term correlations between Reddit sentiment trends and Tesla stock price fluctuations.
+        </p>
+      </div>
+      <p><a href="https://rickyhui28.github.io/Portfolio/Dissertation.pdf" target="_blank">Read Here</a></p>
+    </div>
+
+    <div class="project">
+      <h3>2. Kaggle Rohlik Competition</h3>
+      <p>The Rohlik competition focused on developing a product recommendation system for a large European e-grocery retailer. Participants were given anonymized transactional data and were tasked with predicting the next best purchase for individual customers using machine learning and recommender system techniques.</p>
+
+      <p>This challenge involved real-world complexities such as sparse purchase histories, cold-start problems, and personalized user behavior, making it an excellent opportunity to apply collaborative filtering, feature engineering, and ranking models to build scalable and accurate recommendations.</p>
+
+      <p><a href="https://rickyhui28.github.io/Portfolio/Dissertation.pdf](https://www.kaggle.com/code/ricky028/rohlik-sales-forecasting" target="_blank">Read Here</a></p>
+    </div>
+
+  </div>
+</body>
+</html>
