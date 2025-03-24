@@ -5,7 +5,7 @@
 #### Reddit sentiment and Tesla’s stock price Correlation Analysis
 A data science research project exploring the relationship between public sentiment on Reddit and Tesla’s stock price movement, leveraging NLP and machine learning techniques.
 
-Key Components:
+#### Key Components:
 
 Data Collection: Scraped thousands of Reddit posts from finance-related subreddits using the Pushshift API, focusing on discussions about Tesla.
 
@@ -13,7 +13,7 @@ Data Cleaning & Preprocessing: Performed NLP preprocessing including tokenizatio
 
 Feature Engineering: Aggregated daily sentiment scores, user engagement metrics, and post frequency; aligned these with daily Tesla stock data from yFinance.
 
-Modeling:
+#### Modeling:
 
 Built time-series models (ARIMA, LSTM) to forecast stock price trends using sentiment-based features.
 
@@ -23,7 +23,7 @@ Analysis: Performed Granger Causality Tests to investigate directional influence
 
 Tools Used: Python, Pandas, scikit-learn, Keras, TensorFlow, yFinance, Pushshift API, Matplotlib, Seaborn
 
-Outcome:
+#### Outcome:
 Found moderate short-term correlations between Reddit sentiment trends and Tesla stock price fluctuations. Built an interactive Flask-based dashboard to visualize real-time sentiment and stock trends.
 
 
